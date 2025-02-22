@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0);
+
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ebe8eb;
+    
+}
+
+.container #title{
+    display:block;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    font-size: 38px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255)
+}
+
+.container .input-boxes{
+    display:block;
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 30px;
+    
+}
+
+.container .input-boxes input{
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 10px; 
+    background-color:rgb(0, 0, 0);
+    color: rgb(255,255,255);
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ebe8eb;
+    padding-left: 10px;
+    
+}
+
+.container .input-boxes input::placeholder{
+    color: rgba(255,255,255, 0.5);
+    
+}
+
+.container .input-boxes i{
+    margin-left: 10px;
+    font-size: 40px;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ebe8eb;
+    color: rgb(255,255,255);
+    
+    
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.container .buttons button {
+    font-size: 20px;
+    padding: 5px;
+    width: 79%;
+    max-width: 100%;
+    border: none; 
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+}
+
+.container .buttons button:hover{
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    transition: all 0.1s ease;   
+}
+
+.container .links{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+
+.container .links a{
+    padding: 8px;
+    color: rgb(255,255,255);
+    
+}
+
+.container .links a:hover{
+    color: rgba(255,255,255,0.5);
+}
